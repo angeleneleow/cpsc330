@@ -33,6 +33,9 @@ A virtual environment is a Python environment such that the Python interpreter, 
 		```
 		After a successful activation, something like `(cpsc330env)` should show up in the terminal.
 	5. We are all set! You can now run homework and lecture materials within the virtual environment.
+		```
+		jupyter lab
+		```
 	6. To deactivate the environment, run
 		```
 		conda deactivate
@@ -64,14 +67,34 @@ A virtual environment is a Python environment such that the Python interpreter, 
 		```
 		If you happen to use csh or fish shell, source the corresponding activate file. 
 		After a successful activation, something like `(cpsc330env)` should show up in the terminal.
-	5. Download [requirement.txt](requirement.txt) and put it in your working directory. Then install the dependencies listed with
+	5. Download [requirements.txt](requirements.txt) and put it in your working directory. Then install the dependencies listed with
 		```
 		pip install -r requirements.txt
 		```
-	6. We are all set! You can now run homework and lecture materials within the virtual environment.
-	7. To deactivate the virtual environment, run
+	6. A few more dependencies that we'll need to install manually
+		- Install `nodejs` from [here](https://nodejs.org/en/download/)
+		- Install `graphviz` from [here](https://graphviz.org/download/)
+	7. We are all set! You can now run homework and lecture materials within the virtual environment.
+		```
+		jupyter lab
+		```
+	8. To deactivate the virtual environment, run
 		```
 		deactivate
 		```
 	For more information on `virtualenv`, see [here](https://virtualenv.pypa.io/en/latest/index.html).
+
+### Additional steps to enable canvas utitlity
+
+Activate the virtual environment, then run the following commands
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension update --all 
+jupyter lab build
+```
+
+### Git
+
+Please also see the [git setup instructions](https://github.com/UBC-CS/cpsc330/blob/master/docs/git_installation.md) as you will need git as well for the course.
+
 		
