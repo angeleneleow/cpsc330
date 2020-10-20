@@ -26,9 +26,11 @@ Unless otherwise noted, if you download a dataset for your assignment, please do
 
 Your final report must be submitted online as a Jupyter notebook, so please do not write up your answers on paper! 
 
-Be sure that your answers are clearly written and easy for the TA to understand. The TAs have the option to reduce your mark if your answers aren't clear or are difficult to understand (even if they are correct). Preparing your answers in LaTeX is one easy way to reduce the chance of this happening.
+Be sure that your answers are clearly written and easy for the TA to understand. The TAs have the option to reduce your mark if your answers aren't clear or are difficult to understand (even if they are correct). 
 
-Finally, you must ensure that all your code output (values, tables, figures, etc.) is displayed in the notebook. For example, if you are required to calculate some value, it is not sufficient to just store the value to a variable, nor is it sufficient to have a `print(value)` in your code - the print code must actually be run and the notebook saved, so that the output is shown on the screen when the notebook is rendered. This allows the TAs to see your results without running your code. Failure to display all output will result in a deduction of marks.
+Please do not delete the question cells or move the questions around. This will make things easier for the TAs.
+
+**You must ensure that all your code output (values, tables, figures, etc.) is displayed in the notebook.** For example, if you are required to calculate some value, it is not sufficient to just store the value to a variable, nor is it sufficient to have a `print(value)` in your code - the print code must actually be run and the notebook saved, so that the output is shown on the screen when the notebook is rendered. Likewise, if there are tests (e.g. `assert` statements) provided in the code, make sure these are left in so we can see the output of the tests. This allows the TAs to see your results without running your code. Failure to display all output will result in a deduction of marks.
 
 **If you are unsure whether your report is rendering properly, please view your submission in Canvas. This is exactly how your TA will see it.**
 
@@ -41,14 +43,31 @@ In most assignments, you will be asked to produce plots/figures. When including 
 - All figures must have some accompanying text explaining what the figure is about. You can do this by putting a figure title in the image itself (such as, "Training error vs. k") or you can use LaTeX to add figure captions that appear underneath the figure.
 - Regardless of your image formats, all text must be big enough to read without straining or zooming. Please be careful about this for axis labels, legends, titles, etc. Avoid tiny text!
 
-## Groups
-You must work alone for Assignment 1. For Assignment 2 onwards, you may work with a partner or work alone. You can make this decision independently for each assignment. To work with a partner, you must follow these instructions:
+## Partners
+You must work alone for Assignment 1. For Assignment 2 onwards, you may work with a partner or work alone. You can make this decision independently for each assignment. To work with a partner, you must follow these instructions before you get started.
 
-1. Agree with your partner on which repository you want to work in, e.g. `hw2_yourCWL` vs. `hw2_theirCWL` (it makes no difference, but make sure you both know which one you're using). Do all your work together in that one repository and ignore the other one.
-2. To be completed by the person whose repository you are using: go to the Settings tab in GitHub, then Collaborators & teams, then search your partner's CWL username and add them as a collaborator with Write or Admin access (not Read) so that they can push to the repository. 
-3. (optional) From the repository's Settings tab, rename the repository to `hw2_yourCWL_theirCWL`.
+**The GitHub part**
 
-This system requires a certain level of trust and professionalism, because the parter(s) with Admin access could remove the other person at any time. If the system is abused, we may stop allowing partners for any future assignments.
+1. Agree with your partner on which repository you want to work in, e.g. `hw2_yourCWL` vs. `hw2_theirCWL` (it makes no difference, but make sure you both know which one you're using). You'll do all your work together in that one repository and ignore the other one.
+2. The person whose repository you are using needs to go to the Settings tab in GitHub, then Collaborators & teams, then search your partner's CWL username and add them as a collaborator with Write or Admin access (not Read) so that they can push to the repository. 
+
+Note: This system requires a certain level of trust and professionalism, because the parter(s) with Admin access could remove the other person at any time. If the system is abused, we may stop allowing partners for any future assignments. Please do not use your Admin powers for anything confusing such as renaming your repository.
+
+**The Canvas part**
+
+1. One of you (either one, but make sure you know who is doing it) needs to go to the course on Canvas, and select People on the left sidebar. There should be a tab for the particular assignment, e.g. `hw2_groups` for hw2. Go to that tab. 
+2. Search for your partner's name to find their group, and select "SWITCH TO" to switch to their group. 
+
+Note: apparently the search doesn't work very well, so you may need to try their first name, or last name, etc. If you can't find your partner by searching, an alternative is to see what group you are in and let them know. You can do this either by searching your own name or going to the Groups tab at the far left of the Canvas window.
+
+Note: I realize this is a horribly bad interface but I think this solution will actually be more convenient for students than the old solution because it allows you to decide on partership after the assignment is released. In the old system students had to declare partnerships in advance and it caused a lot of chaos. Just make sure you do all the steps before submitting anything.
+
+**Submission**
+
+1. Make sure you've done all the above steps.
+2. As usual, push your work to GitHub as you work on the assignment.
+3. When it comes time to submit Canvas, only one of you needs to submit. For now, please have this be the "primary" partner (whose repository you are using). I don't think this is necessary but it's a helpful safeguard while we test-drive this workflow on hw2.
+
 
 ## Late submissions
 
@@ -61,5 +80,5 @@ _In exceptional circumstances_ a late submission may be accepted with an academi
 If there are errors or other changes that need to be made to an assignment, I will announce them in a pinned Piazza post.
 
 ## Citing sources
-If you use information from students outside your group or from online sources _including code snippets from Stack Overflow_, cite this at the start of each question. **You will receive a mark of 0 for the assignment (and possibly other consequences) if you are found copying from other sources without citation**.
+If you use information from students outside your group or from online sources _including code snippets from Stack Overflow_ or lecture notes, cite this at the start of each question. **You will receive a mark of 0 for the assignment (and possibly other consequences) if you are found copying from other sources without citation**.
 

@@ -1,12 +1,18 @@
 # Reference Material
 
-### A related course
+### Relevant companion materials
 
-[COMS W4995 Applied Machine Learning](https://www.cs.columbia.edu/~amueller/comsw4995s20/schedule/) by Andreas Müller, Columbia University.
+There are a lot of good materials created by Andreas Müller, one of the core developers of scikit-learn:
+
+- Book: [Introduction to Machine Learning with Python: A Guide for Data Scientists](https://www.amazon.ca/Introduction-Machine-Learning-Python-Scientists/dp/1449369413)
+- Companion Jupyter notebooks for the book available online [here](https://github.com/amueller/introduction_to_ml_with_python)
+- [Applied Machine Learning course at Columbia University](https://www.cs.columbia.edu/~amueller/comsw4995s20/schedule/)
 
 ### Python resources
 
 Mike's resources:
+
+- [Programming in Python for Data Science](https://prog-learn.mds.ubc.ca/): a set of interactive pandas/Python lessons created by Mike and two colleagues. Of particular relevance: Modules 1, 2, 4, 8. 
 - Python [videos](https://www.youtube.com/playlist?list=PLWmXHcz_53Q26aQzhknaT3zwWvl7w8wQE) and [notebooks](https://github.com/UBC-MDS/DSCI_511_prog-dsci) from DSCI 511
 - [Old CPSC 330 notes on Python](python_notes.ipynb)
 
@@ -40,10 +46,6 @@ Courses:
 * [Elements of AI](https://www.elementsofai.com/)
 * [Machine Learning Exercises In Python, Part 1](http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-1/) (translation of Andrew Ng's course to Python)
 
-### ML textbooks
-
-* [Introduction to Machine Learning with Python: A Guide for Data Scientists](https://www.amazon.ca/Introduction-Machine-Learning-Python-Scientists/dp/1449369413)
-* [A Course in Machine Learning](http://ciml.info/) by Hal Daumé III
 
 ### Short posts/articles
 
